@@ -18,9 +18,8 @@
 
 @section('content')
 
-<div class="container">
-    <br />
-    <h1 class="text-center text-primary"><u>Student Calendar</u></h1>
+<div class="container text center">
+       <h1 class="mb-5 mt-5">Calendario de {{ auth()->user()->name}}</h1>
     <br />
 
     <div id="calendar"></div>
